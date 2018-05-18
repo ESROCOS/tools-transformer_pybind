@@ -1,4 +1,4 @@
-#include <Transformer.h>
+#include <tools/transformer/Transformer.h>
 #include <boost/python.hpp>
 
 typedef esrocos::transformer::AcyclicTransformer<20,20> atf;
