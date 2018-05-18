@@ -6,6 +6,6 @@ set(CMAKE_CXX_FLAGS)
 
 add_definitions(-Wall -Wno-unknown-pragmas)
 
-include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${CMAKE_INSTALL_PREFIX}/include)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/src)
