@@ -1,0 +1,8 @@
+<package>
+    <description brief="python bindings for tools/transformer">
+        
+    </description>
+    <author>Benjamin Kisliuk</author>
+
+    <depends>boost</depends>
+</package>
